@@ -1,3 +1,5 @@
+@import './variables';
+
 .App {
   text-align: center;
 }
@@ -28,6 +30,23 @@
   color: #61dafb;
 }
 
+nav{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: $padding-right;
+  padding-top: $padding-top;
+  text-decoration: none;
+  a:hover {
+    color: $accent-color;
+  }
+}
+
+.Tilt {
+  margin-left: $margin-left;
+  padding-top: $padding-top;
+  background: rgb(228,47,15);
+  background: linear-gradient(90deg, rgba(228,47,15,1) 0%, rgba(121,9,9,1) 37%, rgba(106,8,8,1) 61%, rgba(0,0,0,1) 100%);
+ }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
