@@ -43,10 +43,61 @@ nav{
 
 .Tilt {
   margin-left: $margin-left;
-  padding-top: $padding-top;
-  background: rgb(228,47,15);
-  background: linear-gradient(90deg, rgba(228,47,15,1) 0%, rgba(121,9,9,1) 37%, rgba(106,8,8,1) 61%, rgba(0,0,0,1) 100%);
+  padding-top: 0.5%;
+  margin-top: $margin-top;
+  background: #3C5A14;
  }
+
+.logo {
+ width: 90%;
+}
+
+input {
+  width: 80%;
+  padding: 18px 22px;
+  border: none;
+  border-radius: 5px;
+  background-color: $text-color;  
+}
+
+div{
+  justify-content: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  width: $total-width;
+  background-color: #11270B;
+
+  .buttonid {
+  color: $primary-color !important;
+  text-transform: uppercase;
+  background: #ffffff;
+  padding: 20px;
+  margin-left: 2%;
+  border: 4px solid #3C5A14 !important;
+  border-radius: $borders;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  }
+
+  .buttonid:hover {
+    color: $primary-color !important;
+    border-radius: 50px;
+    border-color: $primary-color !important;
+    transition: all 0.3s ease 0s;
+    }  
+  }
+
+.particles {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
