@@ -45,7 +45,8 @@ nav{
   margin-left: $margin-left;
   padding-top: 0.5%;
   margin-top: $margin-top;
-  background: #3C5A14;
+  background-color: #f5d020;
+  background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
  }
 
 .logo {
@@ -67,24 +68,24 @@ div{
   display: flex;
   justify-content: center;
   width: $total-width;
-  background-color: #11270B;
+  background-color: white;
 
   .buttonid {
   color: $primary-color !important;
-  text-transform: uppercase;
-  background: #ffffff;
+  background: #f5d020;
   padding: 20px;
   margin-left: 2%;
-  border: 4px solid #3C5A14 !important;
+  border: 4px solid #f5d020 !important;
   border-radius: $borders;
   display: inline-block;
+  font-weight: bold;
   transition: all 0.3s ease 0s;
   }
 
   .buttonid:hover {
     color: $primary-color !important;
     border-radius: 50px;
-    border-color: $primary-color !important;
+    border-color: #f5d020 !important;
     transition: all 0.3s ease 0s;
     }  
   }
@@ -97,6 +98,22 @@ div{
   right: 0;
   z-index: -1;
 }
+
+.imagesize {
+  // @extend .center;
+  display: absolute;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.resize {
+  width: 500px;
+  height: auto;
+}
+.imagedisplay {
+  justify-content: center;
+}
+
 
 @keyframes App-logo-spin {
   from {
