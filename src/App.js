@@ -67,6 +67,7 @@ class App extends Component{
   }
 
   render() {
+    console.log(this.state.box);
     return (
       <div className='App'>
          <Particles className='particles'
