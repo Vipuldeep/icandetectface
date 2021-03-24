@@ -82,16 +82,6 @@ class App extends Component{
         {/* Components */}
         <Navigation onRouteChange={this.onRouteChange}/>
         
-        {/* { this.state.route === 'signIn' 
-          ? <SignIn onRouteChange={this.onRouteChange}/> 
-          : <div>
-            <Logo />
-            <Rank />
-            <ImageLinkForm onInputChange={this.onInputChange} onSubmit={this.onSubmit}/>
-            <FaceRecognition box={this.state.box} imageUrl={this.state.imageUrl}/>
-           </div> 
-        } */}
-
         { this.state.route === 'home' 
           ? 
             <div>
