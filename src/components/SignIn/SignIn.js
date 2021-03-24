@@ -1,9 +1,7 @@
 import React from 'react';
-// import './Signin.css'
 
-
-const Signin = ({ onRouteChange }) => {
-  return(
+const SignIn = ({onRouteChange}) => {
+  return (
     <div>
     <main className="pa4 black-80 ">
     <form className="center br3 shadow-2 pa4 dib">
@@ -19,25 +17,15 @@ const Signin = ({ onRouteChange }) => {
         </div>
         </fieldset>
         <div className="lh-copy mt3">
-            <input
-              onClick={() => onRouteChange('home')}
-              className='buttonid'
-              type="submit"
-              value="Sign in"
-            />
-          </div>
-          <div className="lh-copy mt3">
-            <input
-              onClick={() => onRouteChange('register')}
-              className='buttonid'
-              type="submit"
-              value="Sign up"
-            />
-            </div>
+        <input className='buttonid' type="submit" value="Sign in" onClick={() => onRouteChange('home')}/>
+        </div>
+        <div className="lh-copy mt3">
+        <input className='buttonid' type="submit" value="Sign up" onClick={() => onRouteChange('register')}/>
+        </div>
     </form>
     </main>
     </div>
   );
-}
+};
 
-export default Signin;
+export default SignIn;

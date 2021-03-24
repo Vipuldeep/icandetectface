@@ -21,7 +21,8 @@ const Register = ({onRouteChange}) => {
         </div>
         </fieldset>
         <div className="lh-copy mt3">
-        <input className='buttonid' type="submit" value="Sign in" onClick={() => onRouteChange('home')}/>
+            {/* error */}
+        <input className='' type="submit" value="Sign in" onClick={() => onRouteChange('signIn')}/>
         </div>
     </form>
     </main>

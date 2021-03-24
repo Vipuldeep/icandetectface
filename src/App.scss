@@ -99,26 +99,6 @@ div{
   z-index: -1;
 }
 
-.signout:link, .signout:visited {
-  color: $primary-color !important;
-  background: #f5d020;
-  padding: 10px;
-  margin-left: 2%;
-  border: 4px solid #f5d020 !important;
-  border-radius: $borders;
-  display: inline-block;
-  font-weight: bold;
-  transition: all 0.3s ease 0s;
-  width: 150%;
-  text-decoration: none;
-}
-
-.signout:hover, .signout:active {
-  color: $primary-color !important;
-  border-radius: 50px;
-  border-color: #f5d020 !important;
-  transition: all 0.3s ease 0s;
-}
 
 .resize {
   width: 500px;
