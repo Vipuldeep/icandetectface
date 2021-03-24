@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Navigation = (onRouteChange) => {
+const Navigation = () => {
     return (
         <nav>
-            <p><a href="" onClick={() => onRouteChange('Signin')}>Sign out</a></p>
+            <p><a href="">Sign out</a></p>
         </nav>
     );
 }
